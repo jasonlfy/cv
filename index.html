@@ -1,0 +1,604 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+<!-- Basic Page Needs
+================================================== -->
+<title>Home</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Mobile Specific Metas 
+================================================== -->
+<meta content="width=device-width,initial-scale=1" name="viewport">
+
+<!-- Favicons
+================================================== -->
+<link rel="shortcut icon" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+<!--fonts
+====================================================-->
+<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700%7cOswald:400,700" rel="stylesheet"> -->
+<!--stylesheets
+====================================================-->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">  
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/simpletextrotator.css"> 
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--> 
+<script src="js/jquery.min.js"></script> <!-- JQUERY -->
+</head>
+<body>
+
+<!--FRONT PAGE/ SPLASH SCREEN SECTION-->
+
+<div class="loading-screen"></div>
+
+<div id="frontpage"> 
+	<div class="shadow-img"></div> 
+	<img src="images/myresume01.jpg" class="front-img img-responsive" alt ="Front-image"><!--IMAGE FOR FRONT SCREEN-->
+	<h1>罗方远</h1><!--PROFILE NAME-->
+	<h3 class="invert" style="margin-top: -10px; margin-bottom: 10px;"><span class="rotate">Web前端开发, H5开发工程师</span></h3> <!--SUBTITLE IN PROFILE-->
+	<div class="frontclick"><img src="images/click.png" alt="" class="img-responsive"><span class="pulse"></span></div>
+</div>
+<!--FRONT PAGE/ SPLASH SCREEN SECTION ENDS-->
+<!--container-->
+<div class="container">
+	<div id="content" class="row hidden">
+		<div class="col-sm-4">
+			<!--namecard-->
+			<div id="namecard" class="namecard">
+				<div class="shadow-img"></div>
+				<h1 class="maintitle">罗方远</h1><!--PROFILE NAME-->
+				<h3 class="invert sub-maintitle"><span class="rotate">Web前端开发, H5开发工程师</span><!--SUBTITLE AFTET NAME-->
+				</h3>
+				<img id="profile-img" class="profile-img transparent" src="images/profile-thum.png" alt="profile-image"><!--PROFILE IMAGE-->
+			</div><!--/#namecard-->
+			<!--menu-->
+			<div id="menu-container">
+				<!--PAGE MENU-->
+				<ul class="nav-menu no-padding">
+					<li class="nav-btn selected" title="Home" data-page="home">
+						<div class="hover-background"></div>
+						<span>Home</span><i class="fa fa-user fa-fw"></i>
+					</li>
+					<li class="nav-btn" id="resume-btn" title="Resume"  data-page="resume">
+						<div class="hover-background"></div>
+						<span>Resume</span><i class="fa fa-file-text fa-fw"></i>
+					</li>
+				   <li class="nav-btn folio-btn" data-filter="*" title="Portfolio" data-page="portfolio">
+						<div class="hover-background"></div>
+						<span>Portfolio</span><i class="fa fa-suitcase fa-fw"></i>
+					</li>
+					<li class="nav-btn" title="Contact" id="contact-link" data-page="contact">
+						<div class="hover-background"></div>
+						<span>Contact</span><i class="fa fa-paper-plane fa-fw"></i>
+					</li>
+				</ul><!--/.nav-menu __PAGE MENU ENDS-->
+
+				<!--SOCIAL NAV MENU-->
+				<div class="social-menu-container">
+					<ul class="social-menu no-padding">                     
+						<li><a href=""><i class="fa fa-facebook"></i></a></li>
+						<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+						<li><a href=""><i class="fa fa-youtube"></i></a></li>
+						<li><a href=""><i class="fa fa-pinterest-p"></i></a></li>
+						<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div><!--/.social-menu-container-->
+			</div><!--#menu-container-->
+		</div>
+		<div class="col-sm-8 page-segment">
+			<ul class="page-container no-padding">
+				<!--HOME/PROFILE PAGE-->
+				<li id="home" class="selected">
+					<div class="title-container hidden">
+						<div class="shadow-img"></div> 
+						<h2 class="rotate-out">Welcome To <span class="invert">My Profile</span></h2><!--HOME TITLE-->                          
+					</div>
+					<div class="description hidden">
+						<div class="watermark-home"></div> 
+
+						<div class="fade-text transparent">
+							<!--DESCRIPTION ON HOME-->
+							<div class="strong-text">Hello, I am <span>Jason Luo</span></div>
+							<div class="focus-text"><span>Web Developer & </span><span>Web Designer</span></div>
+							<p class="large-paragraph">本人是一个有较强独立工作能力的人。做事细心，具有强烈的敬业精神和责任感，喜欢在工作中不断学习和探索，对新环境的适应能力强。与人相处和睦融洽，乐于助人，对工作认真负责，学习能力强，能较好完成任务。注重团队合作，能够积极参加公司组织的活动，希望能成为贵公司的一员。</p>         
+							<!--DESCRIPTION ON HOME ENDS-->
+						</div>
+
+						<!--ALL PERSONAL DETAILS-->
+						<h3 class="personal-info-title title">个人信息</h3>
+						<ul class="personal-info">
+							<li class="rotate-out rotated"><label>姓名:</label><span>罗方远</span></li>                     
+							<li class="rotate-out rotated"><label>地址:</label><span>深圳市</span></li>
+							<li class="rotate-out rotated"><label>邮箱:</label><span style="text-transform:Lowercase">119917356@qq.com</span></li>  
+							<li class="rotate-out rotated"><label>手机:</label><span>138 2880 7296</span></li>
+						</ul><!--/ul.personal-info-->
+					</div>
+				</li><!--/#home-->
+
+				<!--RESUME PAGE-->
+				<li id="resume" class="hidden">
+					<div class="title-container">
+						<div class="shadow-img"></div>
+						<h2 class="rotate-out rotated"><span class="invert">Resume Of</span> Jason Luo</h2> <!--RESUME TITLE-->
+					</div>
+					<div class="description">
+
+						<div class='tabs tabs_animate'>
+							<!--RESUME TAB LISTS-->
+							<ul class='horizontal no-padding'>
+								<li><a href="#tab-1" class="icon-bg icon-skills"><div>专业技能</div></a></li>
+								<li><a href="#tab-2" class="icon-bg icon-education"><div>工作经历</div></a></li>
+								<li><a href="#tab-3" class="icon-bg icon-employment"><div>项目经验</div></a></li>
+							</ul><!--RESUME TAB LISTS ENDS-->
+
+							<!--RESUME FIRST TAB/SKILL TAB DETAILS-->
+							<div id='tab-1'>
+								<h3 class="title">我的技能</h3><!--SKILLS WITH BAR DISPLAY-->
+								<ul class="skills-list no-padding">
+									<li class="row">
+										<div class="col-xs-2"><div class="fw-mid">Html</div></div>
+										<div class="col-xs-9">
+											<div class="bar">
+												<div class="percentage" id="bar1" style="width: 80%;"></div>
+											</div>
+										</div>
+									</li>
+									<li class="row">
+										<div class="col-xs-2"><div class="fw-mid">Css</div></div>
+										<div class="col-xs-9">
+											<div class="bar">
+												<div class="percentage" id="bar2" style="width: 75%;"></div>
+											</div>
+										</div>
+									</li>
+									<li class="row">
+										<div class="col-xs-2"><div class="fw-mid">Javascript</div></div>
+										<div class="col-xs-9">
+											<div class="bar">
+												<div class="percentage" id="bar3" style="width: 70%;"></div>
+											</div>
+										</div>
+									</li>
+								</ul><!--SKILLS WITH BAR DISPLAY ENDS-->
+
+								<!--SKILLS WITH CIRCLE DISPLAY-->
+								<div class="circle-skill-container">
+									<h3 class="title">其他技能</h3>
+									<div class="row">
+										<div class="col-xs-4 center-align">
+											<div class="circle-bar" id="line-container1">
+												<div class="progressbar-text" id="progress-text1">0</div>
+											</div>
+											<h5>Photoshop</h5>
+										</div>
+										<div class="col-xs-4 center-align">
+											<div class="circle-bar" id="line-container2">
+												<div class="progressbar-text" id="progress-text2">0</div>
+											</div>
+											<h5>Illustrator</h5>
+										</div>
+										<div class="col-xs-4 center-align">
+											<div class="circle-bar" id="line-container3">
+												<div class="progressbar-text" id="progress-text3">0</div>
+											</div>
+											<h5>After effect</h5>
+										</div>
+									</div>
+								</div><!--SKILLS WITH CIRCLE DISPLAY ENDS-->
+							</div><!--RESUME FIRST TAB/SKILL TAB DETAILS ENDS-->
+							
+							<!--RESUME SECOND TAB/EDUCATION TAB DETAILS-->
+							<div id='tab-2'>
+								<h3 class="title">工作经历</h3>
+								<ul class="education-class">
+									<li>
+										<!--EDUCATION LIST ITEM-->
+										<h4 class="title">深圳优品未来科技有限公司<i class="fa fa-sort-desc pull-right"></i></h4>
+										<div class="list-content">
+											<h5 class="title">Web前端开发工程师 <span class="list-year">(2014/10--至今)</span></h5>
+											<p>负责前端开发工作，根据UI设计图完成页面排版;按要求实现界面动画，交互功能；配合产品经理和需求讨论和改善用户体验；配合后端工程师完成前端修改调试和开发工作，确保代码有效对接；后期产品的维护,更新迭代。</p><!--EDUCATION LIST DETAILS-->
+										</div>
+									</li>
+									<li>
+										<!--EDUCATION LIST ITEM-->
+										<h4 class="title">深圳市传世嘉业企业管理咨询服务有限公司<i class="fa fa-sort-desc pull-right"></i></h4>
+										<div class="list-content current">
+											<h5 class="title">网页设计师 <span class="list-year">(2013/6--2014/9)</span></h5>
+											<p>负责网站页面设计；负责高保真效果图的切片并用代码还原；与后台开发工程师配合,对页面样式和交互效果进行分析和调试；根据客户需求对项目进行修改以及优化；对完成的页面进行维护和对网站前端性能做相应的优化。</p><!--EDUCATION LIST DETAILS-->
+										</div>
+									</li>
+									<li>
+										<!--EDUCATION LIST ITEM-->
+										<h4 class="title">深圳市威泰格户外有限公司<i class="fa fa-sort-desc pull-right"></i></h4>
+										<div class="list-content">
+											<h5 class="title">平面设计师 <span class="list-year">(2009/8--2013/5)</span></h5>
+											<p>负责公司日常品牌宣传、策划设计制作、平面设计、制作及其它图文处理；参与项目的创意构思，从平面设计角度提供有价值的建议及创新的设计方案；协助其他部门人员对设计方面的工作顺利完成；对公司网站风格的把握，色调搭配，布局 合理性，图片整理等等；公司其他设计文件的使用，修改、数码照相处理、公司市场活动宣传品配合；保证设计产品整体上的美观性，达到良好的视觉表达效果。</p><!--EDUCATION LIST DETAILS-->
+										</div>
+									</li>
+								</ul>
+							</div><!--RESUME SECOND TAB/EDUCATION TAB DETAILS ENDS-->
+							<!--RESUME THIRD TAB/EMPLYMENT TAB DETAILS ENDS-->
+							<div id='tab-3'>
+								<h3 class="title">项目经验</h3>
+								<ul class="employment-class tab-cont">
+									<li>
+										<!--EMPLOYMENT INDIVIDUAL LIST-->
+										<h4>诚汇通 <span class="year"></span></h4>
+										<p>1．PC端以div+css布局为主，使用CSS3实现图片的动画效果；<br>
+                    2．移动端页面采用HTML5和CSS3进行布局；并使用swiperjs、layer.js增加了页面的 交互效果;<br>
+                    3．主要使用jQuery库以及zepto.js，提高工作开发效率及移动端交互；<br>
+                    4．使用Ajax与后端进行交互，协助后端进行平台的调试；</p>
+										<!--EMPLOYMENT LIST DETAILS-->
+									</li>
+									<li>
+										<!--EMPLOYMENT INDIVIDUAL LIST-->
+										<h4>壹佰金融 <span class="year"></span></h4>
+										<p>1．负责完成我的财富、投资、充值、邀请好友等页面布局； <br>2．主要用到javascript、jquery、html5、css3等开发技术； <br>3．使用了layer.js、slide.js、swiper.js插件；<br> 4．使用Ajax与后端进行交互； 5．协助后台人员进行平台的调试；  </p><!--EMPLOYMENT LIST DETAILS-->
+									</li>
+									<li>
+										<!--EMPLOYMENT INDIVIDUAL LIST-->
+										<h4>晓投资 <span class="year"></span></h4>
+										<p>1.主要用Html和css编写静态的页面；<br>2.使用jQuery完成页面的动画特效和交互；<br>3.使用Ajax配合template模板引擎向后台动态的请求数据，渲染页面；
+                    <br>4.处理浏览器兼容性，优化网站性能 </p><!--EMPLOYMENT LIST DETAILS-->
+									</li>
+								</ul>
+							</div><!--RESUME THIRD TAB/EMPLYMENT TAB DETAILS ENDS-->
+						</div>
+					</div>
+				</li>
+				<!--/#resume-->
+				<!--PORTFOLIO PAGE-->
+				<li id="portfolio" class="hidden">
+					<div class="title-container">
+						<div class="shadow-img"></div>
+						<h2 class="rotate-out rotated">Portfolio</h2> <!--PORTFOLIO TITLE-->                         
+					</div>
+
+					<!--PORTFOLIO CATEGORY LIST-->    
+					<div class="abs-child">
+						<ul class="button-group filters-button-group">
+							<li class="button is-checked" data-filter="*">所有</li>
+							<li class="button" data-filter=".photography">项目</li>
+							<li class="button" data-filter=".commercial">爱好</li>
+							<li class="button" data-filter=".potrait">其他</li>
+						</ul><!--/.button-group filters-button-group-->
+					</div>
+					
+					<div class ="sec-porfolio description"> 
+						<div class="row">
+							<!--PORTFOLIO ITEM CONTAINER-->
+							<div class="folio-container">
+								<ul class="folio-item"><!--PORTFOLIO INDIVIDAUAL ITEM-->
+									<li class="view view-first photography">  
+										<img src="images/folio/chts.jpg" alt="logs" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE--> 
+										<div class="mask">  
+											 <h2>诚汇通</h2> <!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                               
+											<!-- Button trigger modal -->
+											<a role="button" class="info" data-toggle="modal" data-target="#myCht">Read More</a><!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
+										 </div>  
+									</li>  
+									<li class="view view-second commercial"><!--PORTFOLIO INDIVIDAUAL ITEM-->
+									  <img src="images/folio/smallresume16.jpg" alt="book" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE--> 
+										<div class="mask"></div>
+										<div class="content">
+											<h2>my icons</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                  
+											<a role="button" class="info" data-toggle="modal" data-target="#myModal2">Read More</a><!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
+										</div>
+									</li>
+									<li class="view view-tenth photography"> <!--PORTFOLIO INDIVIDAUAL ITEM--> 
+										 <img src="images/folio/pp100s.jpg" alt="beach" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->  
+										 <div class="mask">  
+											 <h2>壹佰金融</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                    
+											 <a role="button" class="info" data-toggle="modal" data-target="#myModal5">Read More</a>  <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
+										 </div>  
+									</li>                         
+									<li class="view view-second commercial"><!--PORTFOLIO INDIVIDAUAL ITEM-->
+									  <img src="images/folio/smallresume18.jpg18" alt="guy" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE--> 
+										<div class="mask"></div>
+										<div class="content">
+											<h2>Enterprise website</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                 
+											<a role="button" class="info" data-toggle="modal" data-target="#myModal3">Read More</a><!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
+										</div>
+									</li> 
+														
+									<li class="view view-first potrait"><!--PORTFOLIO INDIVIDAUAL ITEM-->  
+										 <img src="images/folio/smallresume20.jpg" alt="illustration" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->   
+										 <div class="mask">  
+											 <h2>Thanks for watching</h2>
+											 <a role="button" class="info" data-toggle="modal" data-target="#myModal4">Read More</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'--> 
+										 </div>  
+									</li>                         
+									<li class="view view-second photography"><!--PORTFOLIO INDIVIDAUAL ITEM-->
+									  <img src="images/folio/xtz168s.jpg" alt="guy" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE--> 
+										<div class="mask"></div>
+										<div class="content">
+											<h2>晓投资</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                 
+											<a role="button" class="info" data-toggle="modal" data-target="#myXtz">Read More</a><!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
+										</div>
+									</li> 
+									<li class="view view-tenth potrait"> <!--PORTFOLIO INDIVIDAUAL ITEM--> 
+										<img src="images/folio/smallresume02.jpg" alt="logs" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->  
+										<div class="mask">  
+											 <h2>About me</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                            
+											 <a role="button" class="info" data-toggle="modal" data-target="#myself">Read More</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'--> 
+										 </div>  
+									</li>   
+									
+									<li class="view view-tenth commercial"><!--PORTFOLIO INDIVIDAUAL ITEM-->  
+										 <img src="images/folio/smallresume08.jpg" alt="beach" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->  
+										 <div class="mask">  
+											 <h2>App design</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                    
+											 <a role="button" class="info" data-toggle="modal" data-target="#myGaimei">Read More</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'--> 
+										 </div>  
+									</li>             
+																							
+											  
+								</ul>
+							</div>
+							<!--PORTFOLIO ITEM CONTAINER ENDS-->
+						</div>                          
+					</div>
+				</li><!--/#portfolio-->
+
+				<!--CONTACT PAGE-->
+				<li id="contact" class="hidden">
+					<div class="title-container" >
+						<div class="shadow-img"></div>               
+					   <h2 class="rotate-out rotated">Contact</h2><!--CONTACT PAGE TITLE-->
+					</div>
+					<div class="description">                           
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="map-container">
+									<!--GOOGLE MAP-->
+								</div>
+							</div>
+
+							<div class="col-sm-5">
+								<!--CONTACT DESCRIPTION-->
+								<h3 class="title">联系方式:</h3>
+								<h6 class="sm-title"><span class="address-icon"><i class="fa fa-map-marker"></i></span>深圳市</h6>
+								<h6 class="sm-title"><span class="address-icon"><i class="fa fa-phone"></i></span>138 2880 7296 </h6>
+								<h6 class="sm-title"><span class="address-icon"><i class="fa fa-envelope"></i></span>119917356@qq.com</h6>
+								<!--/CONTACT DESCRIPTION ENDS-->
+							</div>
+							<div class="col-sm-7">
+
+								<div class="mail-container">
+									<div class="cnmail result">
+										<div class="msg success-msg"><i class="icon svg-check"><!--?xml version="1.0" encoding="utf-8"?-->  </i><span> 您的邮件已发送!</span></div>
+										<div class="msg error-msg"><i class="icon svg-close-circle"><!--?xml version="1.0" encoding="utf-8"?-->  </i><span> 对不起!邮件格式不正确!</span></div>
+									</div>
+									<h3 class="title invert">不要忘记给我发邮件哦!</h3>
+									<!--CONTACT FORM-->
+									<form action="sendmail.php" class="form-horizontal" id="contact-form">
+										<div class="form-group">
+											<input name="name" class="form-control required" placeholder="Name" data-placement="top" type="text">
+										</div>                                    
+										<div class="form-group">
+											<input name="email" class="form-control email" placeholder="Email" type="text">
+										</div>                   
+										<div class="form-group">
+											<textarea name="message" class="form-control" placeholder="Message" rows="3"></textarea>
+										</div>
+										<div class="form-group">
+											<button type="submit" class="btn btn-success">发送</button>
+										</div>
+
+									</form><!--/#contact-form-->
+								</div>                      
+								
+							</div>                          
+							
+						</div>
+					</div>
+				</li><!--/#contact-->
+			</ul> 
+
+			<div class="row mobile-nav-container">
+				<!--SOCIAL NAV FOR MOBILE-->
+				<ul class="mobile-social no-padding">
+					<li>联系我</li>
+					<li><a href=""><i class="fa fa-facebook"></i></a></li>
+					<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+					<li><a href=""><i class="fa fa-youtube"></i></a></li>
+					<li><a href=""><i class="fa fa-pinterest-p"></i></a></li>
+					<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+				</ul><!--/.mobile-social-->
+			</div>               
+		</div><!--/.page-segment -->
+		<!--  <h6 class="copyright-text">Copyright © 2015 John Doe</h6> --> <!--if anyone wants copyright Texts--> 
+	</div>
+</div><!--/.container -->
+
+<!--PORTFOLIO IMAGE MODAL LIST 诚汇通-->
+<div class="modal fade" id="myCht" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">诚汇通</h4><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<img src="images/folio/chenghuitong.png" class="img-responsive" alt="modal-image"><!--PORTFOLIO MODAL IMAGE-->
+			</div>
+			<div class="modal-footer">
+				<div class="mf-content">
+					<p>诚汇通主要从事提供互联网投、融资信息服务，为有资金需求的融资方和有理财需求的个	人搭建一座诚信、安全、透明、专业的投融资平台和安全透明的网络借贷投资理财服务。</p>
+				</div>                      
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal Cheng hui tong-->
+<div class="modal fade" id="myXtz" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">晓投资</h4><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<img src="images/folio/xtz168.png" class="img-responsive" alt="modal-image"><!--PORTFOLIO MODAL IMAGE-->
+			</div>
+			<div class="modal-footer">
+				<div class="mf-content">
+					<p>公司自主研发的品牌“金麒麟安全网贷系统”，是我国P2P网贷系统开发金牌服务商。</p>
+				</div>                      
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal Xiao tong zhi-->
+
+<div class="modal fade" id="myGaimei" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">盖美旅行</h4><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<img src="images/folio/myresume08.jpg" class="img-responsive" alt="modal-image"><!--PORTFOLIO MODAL IMAGE-->
+			</div>
+			<div class="modal-footer">
+				<div class="mf-content">
+					<p>盖美作为一种全新的旅游服务模式，
+致力于聚合全球优质的中文导游服务资源，打造一个值得信赖的目的地旅游咨询及中文导游服务交易平台。</p>
+				</div>                      
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal gai mei-->
+<div class="modal fade" id="myself" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">About me</h4><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<img src="images/folio/myresume02.jpg" class="img-responsive" alt="modal-image"><!--PORTFOLIO MODAL IMAGE-->
+			</div>
+			<div class="modal-footer">
+				<div class="mf-content">
+					<p>关于我的一些个人资料</p>
+				</div>                      
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal About me-->
+
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel2">Hover Style</h4><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<img src="images/folio/myresume16.jpg" class="img-responsive" alt="modal-image"><!--PORTFOLIO MODAL IMAGE-->
+			</div>
+			<div class="modal-footer">
+				<div class="mf-content">
+					<p>自己在空闲的时间学习设计的一套扁平化图标</p>
+				</div>                      
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel3">Hover Style</h4><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<img src="images/folio/myresume18.jpg" class="img-responsive" alt="modal-image"><!--PORTFOLIO MODAL IMAGE-->
+			</div>
+			<div class="modal-footer">
+				<div class="mf-content">
+					<p>几年前设计的一个企业网站</p>
+				</div>                      
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel4">Thanks for watching!</h4><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<img src="images/folio/myresume20.jpg" class="img-responsive" alt="modal-image"><!--PORTFOLIO MODAL IMAGE-->
+			</div>
+			<div class="modal-footer">
+				<div class="mf-content">
+					<p>谢谢观赏!希望能成为贵司的一员!</p>
+				</div>                      
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal Thanks for watching-->
+
+<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel5">Hover Style</h4><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<img src="images/folio/pp100.png" class="img-responsive" alt="modal-image"><!--PORTFOLIO MODAL IMAGE-->
+			</div>
+			<div class="modal-footer">
+				<div class="mf-content">
+					<p>壹佰金融主要从事P2P网络借贷服务。
+同时将上市公司、风投基金等资源有机融合的互联网金融平台。</p>
+				</div>                      
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="subscribe_modal_1" tabindex="-1" role="dialog" aria-labelledby="subscribe_modal_1" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h2 class="modal-title">Thank You</h2><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<div class="text-center mail-sucsess"><h3> <span>您的邮件已发送</span></h3></div>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!--javascript files
+=============================================================-->
+<script type="text/javascript" src="js/jQueryTween-aio-min.js"></script> <!-- JQUERY Tween Plugin -->
+<script type="text/javascript" src="js/jquery.tabslet.min.js"></script> <!-- JQUERY Tab plugin-->     
+<script type="text/javascript" src="js/progressbar.min.js"></script> <!-- JQUERY Progressbar Plugin-->
+<script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script> <!-- JQUERY Text Rotator-->
+<script type="text/javascript" src="js/bootstrap.min.js"></script> <!-- Bootstrap file-->
+<script type="text/javascript" src='js/isotope.pkgd.min.js'></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
